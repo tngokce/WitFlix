@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: #fff;
+    padding: 10px 20px;
+}
+footer {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    gap: 30px;
+    background: #ababab;
+    color: #fff;
+    
+    text-align: right;
+    
+    
+  }
+  footer a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
