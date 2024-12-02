@@ -17,7 +17,104 @@ header {
     background: #222;
     color: #fff;
     padding: 10px 20px;
+    
+    
 }
+header .logo {
+    font-size: 1.5rem;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 30px;
+    text-decoration: none;
+    
+    
+    
+}
+
+header .search input {
+    padding: 5px;
+    text-align: center;
+    
+}
+
+header .ring {
+    font-size: 1.5rem;
+    display: flex;
+    
+}
+
+header .profile{
+    display: flex;
+    
+}
+
+
+main {
+    padding: 50px;
+}
+
+.featured-movie {
+    background: #fff;
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.featured-movie h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.featured-movie .rating {
+    font-size: 1rem;
+    color: #666;
+}
+
+.featured-movie .play-btn {
+    background: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.movie-list {
+    margin-bottom: 20px;
+    text-align: right;
+    
+}
+
+.movie-list h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+
+.movies {
+    display: flex;
+    gap: 150px;
+    font-weight: bold;
+}
+
+.movie {
+    background: #fff;
+    padding: 100px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie .thumbnail {
+    height: 150px;
+    background: #ddd;
+    margin-bottom: 10px;
+}
+
 footer {
     display: flex;
     flex-direction: row; 
